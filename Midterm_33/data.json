@@ -1,17 +1,5 @@
 {
 
-    "main":[
-        {
-            "imageURL":"./images/dormitory.png"
-        }
-
-        {
-            "imageURL":"./images/ISU.png"
-        }
-
-    ],
-    
-
     "dorms": [
 
         {
@@ -23,8 +11,6 @@
             "imageURL":"./images/welch.png"
 
         },
-
-
 
         {
 
@@ -77,6 +63,22 @@
             "Address": "2235 UNION DR",
             "Hours": "24/7",
             "imageURL": "./images/companile.png"
+
+        }
+
+    ],
+
+    "homepage": [
+
+        {
+
+            "imageURL": "./images/dormitory.png"
+        
+
+        },
+        {
+
+            "imageURL": "./images/ISU.png"
 
         }
 

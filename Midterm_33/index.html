@@ -15,9 +15,10 @@
     rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
     crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-
     
   </head>
+
+  
   <body>
 <header>
   <div class="collapse bg-dark" id="navbarHeader">
@@ -26,8 +27,9 @@
         <div class="col-sm-8 col-md-7 py-4">
           <h4 class="text-white">Menu</h4>
           <ul class="list-unstyled">
-            <li><a href="index.html">Home</a></li>
             <li><a href="dorm.html">Dorm</a></li>
+            <li><a href="others.html">Other building</a></li>
+            <li><a href="credits.html">Credits</a></li>
           </ul>
         </div>
       </div>
@@ -35,7 +37,7 @@
   </div>
   <div class="navbar navbar-dark bg-dark shadow-sm">
     <div class="container">
-     <h2 class="name_of_page">Others</h2>
+      <h2 class="name_of_page">Guess the Building</h2>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -44,39 +46,57 @@
 </header>
 
 <main>
+  <script src="index.js"></script>
 
-  <script src="others.js"></script>
+    <section>
+        <h3 style="text-align: center">Guess the building name with the picture given!</h3>
+        <p class = "ostyle">Choose the type of the building you want to play with</p>
+    </section>   
+        
+    
+        <div class="img_view">
+          
 
-  <div class="img_view">
-      <div id ="mu2">
+            <div class="col">
+                <div class="card shadow-sm">
+                <div id="dormitory"></div>
+                  <div class="card-body">
+                    <p class="card-text">ISU Dorm</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div>
+                          <a href="dorm.html">
+            <button>
+                Start
+            </button>
+        </a>
+                       
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
 
-          <label>Enter:</label><br>
-          <input type = "text" id="myText"><br>
-          <button type = "button" id="myButton" onclick="answerMU()">submit</button>
-          <button type = "button" id="muAnswer" onclick="showMU()">I do not know the answer</button><br>
-
-      </div>
+             
       
+              <div class="col">
+                <div class="card shadow-sm">
+                <div id="ISU"></div>
+                  <div class="card-body">
+                    <p class="card-text">ISU other buildings</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div>
+                        <a href="others.html">
+                            <button class="buttondesign">
+                                Start
+                            </button>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
 
-      <div id = "stategym2">
-          <label>Enter:</label><br>
-          <input type = "text" id="myText2"><br>
-          <button type = "button" id="myButton2" onclick="answerSG()">submit</button>
-          <button type = "button" id="stategymAnswer" onclick="showSG()">I do not know the answer</button><br>
-
-      </div>
-
-      <div id = "campanile2">
-          <label>Enter:</label><br>
-          <input type = "text" id="myText3"><br>
-          <button type = "button" id="myButton3" onclick="answerCamp()">submit</button>
-          <button type = "button" id="companileAnswer" onclick="showCamp()">I do not know the answer</button><br>
-
-      </div>
-      </div>
-
-
-
+        </div>
 
 
 </main>
@@ -85,7 +105,6 @@
   <div class="container">
     <p class="float-end mb-1">
       <a href="#">Back to top</a>
-      <a href="index.html">Home</a>
     </p>
   </div>
 </footer>
