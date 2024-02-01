@@ -1,0 +1,87 @@
+{
+
+    "dorms": [
+
+        {
+
+            "name": "Welch Hall",
+            "yearBuilt": "1929",
+            "Address": "255 RICHARDSON CT",
+            "Hours": "M-F: 8am-6pm, Sat-Sun: 1-5pm",
+            "imageURL":"./images/welch.png"
+
+        },
+
+        {
+
+            "name": "Maple Willow Larch Commons",
+            "yearBuilt": "1969",
+            "Address": "224 BEACH RD",
+            "Hours": "M-F: 8am-6pm, Sat-Sun: 1-5pm",
+            "imageURL": "./images/maplewillow.png"
+
+        },
+
+        {
+
+            "name": "Roberts Hall",
+            "yearBuilt": "1936",
+            "Address": "275 RICHARDSON CT",
+            "Hours": "M-F: 8am-6pm, Sat-Sun: 1-5pm",
+            "imageURL": "./images/roberts.png"
+
+        }
+
+    ],
+
+    "otherBuildings": [
+
+        {
+
+            "name": "Memorial Union",
+            "yearBuilt": "1927",
+            "Address": "2229 LINCOLN WAY",
+            "Hours": "M-F: 7am-9pm, Sat-Sun: 7am-8pm",
+            "imageURL": "./images/mu.png"
+
+        },
+
+        {
+
+            "name": "State Gymnasium",
+            "yearBuilt": "1913",
+            "Address": "2642 UNION DR",
+            "Hours": "M-F: 6am-10pm, Sat-Sun: NOON-10pm",
+            "imageURL": "./images/stategym.png"
+
+        },
+
+        {
+
+            "name": "Campanile",
+            "yearBuilt": "1897",
+            "Address": "2235 UNION DR",
+            "Hours": "24/7",
+            "imageURL": "./images/companile.png"
+
+        }
+
+    ],
+
+    "homepage": [
+
+        {
+
+            "imageURL": "./images/dormitory.png"
+        
+
+        },
+        {
+
+            "imageURL": "./images/ISU.png"
+
+        }
+
+    ]
+
+}
